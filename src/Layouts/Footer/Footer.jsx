@@ -1,5 +1,4 @@
-
-import { ButtonWhatsapp } from "../../components/ButtonWhatsapp/Button";
+import { ButtonWhatsapp } from "../../Components/ButtonWhatsapp/ButtonWhatsapp";
 import { FooterContainer,ContentFooter, BoxInofrmatioFooter,ContentTerms, Title, TitleBox, SubTitle, Text } from "./FooterStyle";
 
 export function Footer() {
@@ -12,11 +11,11 @@ export function Footer() {
             THOLY <span>DIGITAL</span>
             </SubTitle>
             <Text>Seu site na palma da sua mão: <br />rápido, moderno e seguro!</Text>
-            {/* <ButtonWhatsapp
+            <ButtonWhatsapp
                 Label={"Solicitar orçamento"}
                 To={"https://store.steampowered.com/app/2172010/Until_Dawn/"}
                 ThemeButton={"lightgreen"}
-              /> */}
+              />
           </BoxInofrmatioFooter>
           <BoxInofrmatioFooter>
             <TitleBox>

@@ -1,4 +1,4 @@
-import { ButtonWhatsapp } from "../../../../components/ButtonWhatsapp/Button";
+import { ButtonWhatsapp } from "../../../../Components/ButtonWhatsapp/ButtonWhatsapp";
 import { CardService } from "../../../../Components/CardService/CardService";
 import {
   ContainerWhyYouNeedASite,

@@ -3,9 +3,9 @@ import {
   Navigation,
   NavLink,
 } from "./HeaderStyle";
-import { ButtonWhatsapp } from "../../components/ButtonWhatsapp/Button";
 import useWindowWidth from "../../hooks/ControlWinSize";
 import MenuMobile from "../../components/menu/MenuMobile";
+import { ButtonWhatsapp } from "../../Components/ButtonWhatsapp/ButtonWhatsapp";
 
 
 export function Header() {
@@ -36,11 +36,11 @@ export function Header() {
               <li>
                 <NavLink href="/contato">Contato</NavLink>
               </li>
-              {/* <ButtonWhatsapp
+              <ButtonWhatsapp
                 Label={"Solicitar orçamento"}
                 To={"https://store.steampowered.com/app/2172010/Until_Dawn/"}
                 ThemeButton={"lightgreen"}
-              /> */}
+              />
             </ul>
           </Navigation>
         )}
