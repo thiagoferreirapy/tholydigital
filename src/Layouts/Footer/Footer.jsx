@@ -12,11 +12,11 @@ export function Footer() {
             THOLY <span>DIGITAL</span>
             </SubTitle>
             <Text>Seu site na palma da sua mão: <br />rápido, moderno e seguro!</Text>
-            <ButtonWhatsapp
+            {/* <ButtonWhatsapp
                 Label={"Solicitar orçamento"}
                 To={"https://store.steampowered.com/app/2172010/Until_Dawn/"}
                 ThemeButton={"lightgreen"}
-              />
+              /> */}
           </BoxInofrmatioFooter>
           <BoxInofrmatioFooter>
             <TitleBox>

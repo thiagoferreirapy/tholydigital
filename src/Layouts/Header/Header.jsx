@@ -36,11 +36,11 @@ export function Header() {
               <li>
                 <NavLink href="/contato">Contato</NavLink>
               </li>
-              <ButtonWhatsapp
+              {/* <ButtonWhatsapp
                 Label={"Solicitar orçamento"}
                 To={"https://store.steampowered.com/app/2172010/Until_Dawn/"}
                 ThemeButton={"lightgreen"}
-              />
+              /> */}
             </ul>
           </Navigation>
         )}
