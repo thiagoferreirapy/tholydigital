@@ -1,3 +1,4 @@
+
 import { ButtonWhatsapp } from "../../components/ButtonWhatsapp/Button";
 import { FooterContainer,ContentFooter, BoxInofrmatioFooter,ContentTerms, Title, TitleBox, SubTitle, Text } from "./FooterStyle";
 
