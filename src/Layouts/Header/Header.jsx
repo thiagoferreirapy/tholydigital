@@ -3,13 +3,11 @@ import {
   Navigation,
   NavLink,
 } from "./HeaderStyle";
-import useWindowWidth from "../../hooks/ControlWinSize";
 import MenuMobile from "../../components/menu/MenuMobile";
 import { ButtonWhatsapp } from "../../Components/ButtonWhatsapp/ButtonWhatsapp";
 
 
 export function Header() {
-  const width = useWindowWidth(); 
 
   return (
     <>
